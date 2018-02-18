@@ -1,0 +1,908 @@
+body{
+    margin: 0px; 
+}
+
+a {
+    text-decoration: none;
+    font: bold 13px/25px Sans-serif;
+    color: black;
+}
+
+p{
+    margin-top: 0px !important;
+    margin-bottom: 0px !important;
+}
+h1 strong {
+    display: none;
+    margin: 0px 0px 0px; 
+}
+
+h1{ 
+	margin: 0px 0px 0px;
+}
+
+h2{
+    font: bold 16px/25px Sans-serif;
+    margin: 0px 0px 0px;
+}
+
+h3{ 
+	margin: 0px 0px 0px;
+}
+
+/****pagination block****/
+.dabartinisPsl{
+    color:red;
+    background: #EDEDED none repeat scroll 0% 0%;
+    display: inline-block;
+    font-size: 20px;
+    padding: 7px 12px;
+    margin: 5px 5px 0px 0px;
+    text-decoration: none;
+    border: 1px solid #DEDEDE;
+    line-height: 20px;
+}
+
+.puslapiai{
+    display:block;
+    text-align:center;
+    padding-top: 10px;
+}
+
+.pslNr{
+    background: #EDEDED none repeat scroll 0% 0%;
+    color: #777;
+    display: inline-block;
+    font-size: 16px;
+    padding: 2px 8px;
+    margin: 5px 5px 0px 0px;
+    text-decoration: none;
+    border: 1px solid #DEDEDE;
+    line-height: 20px;
+}
+/****pagination end block****/
+
+
+/****content block****/
+div.content{    
+    width: 960px;
+    height: 950px;
+    margin: 0px auto;
+    font: 16px/25px Sans-serif;
+    text-align: justify;
+}
+
+div.contentPagr{
+    width: 750px;
+    height: 950px;
+    border: 1px solid #DBDAC8;
+    border-top-left-radius: 36px;
+    border-bottom-left-radius: 36px;
+    border-top-right-radius: 36px;
+    border-bottom-right-radius: 36px;
+}
+
+div.contentPagrSoninis{
+    width: 210px;
+    height: 900px;
+    border: 1px solid #DBDAC8;
+    border-top-left-radius: 36px;
+    border-bottom-left-radius: 36px;
+    border-top-right-radius: 36px;
+    border-bottom-right-radius: 36px;
+}
+
+div.contentTxt{
+    font: 16px/25px Sans-serif;
+    text-align: justify;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+}
+
+div.kontentKontakt{
+    text-align: right;
+}
+
+.vardas{
+    font: 12px/12px Sans-serif;
+    font-style: italic;  
+    padding-left: 5px; 
+}
+
+.atsiliepTarpine{
+    width: 100%;
+    border: 1px dashed #DFDFDF;   
+}
+
+.photoComment1Foto{
+    width: 70px;
+    height: 64px;
+    background:transparent url(http://localhost/pirtis/public/image/comment1.jpg) no-repeat 0 0;
+    border-top-left-radius: 26px;
+    border-bottom-left-radius: 26px;
+    border-top-right-radius: 26px;
+    border-bottom-right-radius: 26px;
+    
+}
+
+.photoComment3Foto{
+    width: 70px;
+    height: 64px;
+    background:transparent url(http://localhost/pirtis/public/image/comment2.jpg) no-repeat 0 0;
+    border-top-left-radius: 26px;
+    border-bottom-left-radius: 26px;
+    border-top-right-radius: 26px;
+    border-bottom-right-radius: 26px;
+}
+
+.photoComment2Foto{
+    width: 70px;
+    height: 57px;
+    background:transparent url(http://localhost/pirtis/public/image/comment3.jpg) no-repeat 0 0;
+    border-top-left-radius: 26px;
+    border-bottom-left-radius: 26px;
+    border-top-right-radius: 26px;
+    border-bottom-right-radius: 26px;    
+}
+
+.atsiliep{
+    width: 100%;
+    border: 1px solid #DFDFDF;
+}
+
+.atsiliepPav{
+    margin-top: 5px;
+}
+
+.commnetTxt{
+   font: 12px/18px Sans-serif;
+   text-align: left;
+   padding-left: 10px;
+   padding-right: 10px;   
+}
+
+/****end content block*********/
+
+div.centruoti{
+    font: bold 16px/25px Sans-serif;
+    display:block;
+    text-align:center;
+}
+
+div.pirmoLygioTarpas {
+    margin-left: 20px;   
+} 
+
+div.antroLygioTarpas {
+    margin-left: 40px;   
+} 
+
+div.trecioLygioTarpas {
+    margin-left: 60px;   
+} 
+
+.table{
+    width: 100%;
+}
+
+.tableTd90{
+    vertical-align: top;
+    width: 90%;    
+}
+
+.tableTd80{
+    vertical-align: top;
+    width: 80%;    
+}
+
+.tableTd50{
+    vertical-align: top;
+    width: 50%;    
+}
+
+.tableTd45{
+    vertical-align: top;
+    width: 45%;    
+}
+
+.tableTd40{
+    vertical-align: top;
+    width: 40%;    
+}
+
+.tableTd30{
+    vertical-align: top;
+    width: 30%;    
+}
+
+.tableTd20{
+    vertical-align: top;
+    width: 20%;   
+}
+
+.tableTd10{
+    vertical-align: top;
+    width: 10%;   
+}
+
+/****contact block start****/
+table.contactForm{
+	widht: 20px;
+	height: 20px; 
+	margin: 0px auto;
+}
+
+div.contactBlock{
+    height: 160px;  
+	width: 1050px;
+    margin: 0px auto;
+    border-top-left-radius: 36px;
+    border-bottom-left-radius: 36px;
+    border-top-right-radius: 36px;
+    border-bottom-right-radius: 36px;     
+	border: 2px dashed #8B4513;
+}
+/****contact block end****/
+
+/****footer block****/
+div.kontaktai{    
+    width: 900px;
+    height: 5px;
+    margin: 20px auto;
+    font: bold 25px/25px Sans-serif;
+    color: white;
+    text-align: center;
+    padding-top: 40px;
+}
+
+div.footerContentTxt{ 
+   font: 23px/35px Sans-serif;
+   font-style: italic;
+   color:white;
+   display:block;
+   text-align:center; 
+}
+
+div.footerContentTel{ 
+   font: 23px/23px Sans-serif;
+   font-style: italic;
+   color:white;
+   display:block;
+   text-align:right; 
+}
+
+div.footerLeftTxt{ 
+   font: 18px/35px Sans-serif;
+   font-style: italic;
+   color:white;
+   display:block;
+   text-align:left; 
+}
+
+/****content block****/
+div.footerContent{    
+    width: 960px;
+    margin: 0px auto;
+    font: 16px/25px Sans-serif;
+    text-align: justify;
+}
+
+/****end footer block*********/
+
+/****content block****/
+div.contentAlbumas{    
+    /*border:1px solid black;*/
+    width: 900px;
+    height: 1350px;
+    font: 16px/25px Sans-serif;
+    margin: 20px auto;
+}
+
+div.nuotraukuPav{
+    font: 25px/25px Sans-serif;
+    font-style: italic;
+}
+
+div.nuotraukuRemelis{
+    width: 960px;
+    height: 1350px;
+    border: 1px solid #DBDAC8;
+    margin: 20px auto;
+    border-top-left-radius: 36px;
+    border-bottom-left-radius: 36px;
+    border-top-right-radius: 36px;
+    border-bottom-right-radius: 36px;
+}
+/****end content block*********/
+
+/** start kaip viskas vyksta block**************/
+div.kaipVyksta{
+    background: #A0522D none repeat scroll 0% 0%;
+    height: 750px;  
+    border-top-left-radius: 36px;
+   border-bottom-left-radius: 36px;
+   border-top-right-radius: 36px;
+   border-bottom-right-radius: 36px;     
+}
+
+label.panel{
+   background: #EDEDED none repeat scroll 0% 0%;
+   display: inline-block;
+   font-size: 20px;
+   padding: 7px 12px;
+   margin: 5px 5px 0px 0px;
+   text-decoration: none;
+   border: 5px solid #DEDEDE;
+   line-height: 20px; 
+   
+   border-top-left-radius: 6px;
+   border-bottom-left-radius: 6px;
+   border-top-right-radius: 6px;
+   border-bottom-right-radius: 6px;
+}
+
+label.eile{
+   font: bold 38px/25px Sans-serif; 
+   color: #8B4513;
+}
+
+div.rodykle {
+    font: bold 56px/25px Sans-serif;
+    margin-left: 50px;
+    margin-top: 2px;
+    color: #8B4513;
+}
+
+div.pavKaipVyksta{
+    font: bold 26px/25px Sans-serif;
+    display:block;
+    text-align:center;
+    margin-bottom: 15px;
+}
+/** end kaip viskas vyksta block**************/
+
+
+/** start medziagos block**************/
+div.medziagos{
+    background: white none repeat scroll 0% 0%;
+    height: 800px;  
+    width: 960px;
+    margin: 20px auto;     
+}
+
+div.medziagApras{
+   font: 22px/23px Sans-serif;
+   line-height: 1.5;
+   margin: 30px;
+}
+
+div.medziagPav{
+   font: bold 26px/33px Sans-serif; 
+}
+
+div.skliaustas{
+    background:transparent url(http://localhost/pirtis/public/image/skliaustas.png) no-repeat 0 0;
+    height: 600px;
+    width : 150px;
+    float: right;
+    margin-top: 10px;
+}
+
+div.vanta{
+    background:transparent url(http://localhost/pirtis/public/image/vanta.png) no-repeat 0 0;
+    height: 150px;
+    width : 180px;
+    float: left;
+    margin-top: 220px;
+}
+
+/** end medziagos block**************/
+
+
+/** start footer block**************/
+div.footer{
+    background:transparent url(http://localhost/pirtis/public/image/3.jpg) no-repeat 0 0;
+    background-size: 100%;
+    height: 150px;       
+}
+    
+div.footerKontaktai{
+    padding-top: 40px;
+    font: bold 16px/25px Sans-serif;
+    display:block;
+    text-align:center;
+}
+/** end footer block**************/
+
+/** start hider style**************/
+div.hiderGrayLein table{
+    width: 100%; 
+    margin-top: 0px;    
+}
+
+.header{
+    margin: 0px; 
+    display: table;
+    height: 150px;
+    width: 100%;    
+    background:transparent url(http://localhost/pirtis/public/image/3.jpg) no-repeat 0 0;
+    background-size: 100%;
+    /*background:white none repeat scroll 0% 0%;*/
+    font-family: 'PT Sans', sans-serif;
+    left:0px;
+    top: 0px;
+    -webkit-border-radius: 33px;
+    -moz-border-radius: 33px;
+    -ms-border-radius: 33px;
+    -o-border-radius:33px;
+    border-radius: 33px;
+    box-shadow: 10px 10px 9px #CCC;
+}
+
+div.hiderGrayLein{ 
+    width:100%;
+    height:30px;
+    background:#8B4513 none repeat scroll 0% 0%;
+    margin-top: 0px; 
+}
+
+div.headerContent{
+   width: 960px;
+   height: 100%; 
+   margin: 0 auto;
+}
+
+div.headerContentTxt{
+   width: 960px;
+   height: 20px; 
+   margin: 30px auto;
+   font: 35px/35px Sans-serif;
+   font-style: italic;
+   color:white;
+   display:block;
+   text-align:left; 
+   padding-left: 100px; 
+}
+
+div.headerContentTel{
+   width: 960px;
+   height: 100%; 
+   margin: 0px auto;
+   font: 25px/25px Sans-serif;
+   color:white;
+   display:block;
+   text-align:right;
+   font-style: italic; 
+   padding-right: 200px;    
+   /*border:1px solid black;*/
+}
+
+.headerBegantiJuosta{
+    color: white; 
+    font-size: 17px; 
+    line-height: 150%; 
+    text-shadow: white 0px 1px 1px;
+    font-style: italic; 
+}
+
+div.kalba a{
+    color: white;
+    float: right;
+    padding-right: 10px;
+}
+
+.kalba a:hover{
+    color: #9F9898;
+}
+
+/** end hider style**************/
+
+/**apie mane style**************/
+div.apieMus{
+    background: #A0522D none repeat scroll 0% 0%;
+    height: 830px;  
+    
+    margin: 0px auto;
+    
+    border-top-left-radius: 36px;
+    border-bottom-left-radius: 36px;
+    border-top-right-radius: 36px;
+    border-bottom-right-radius: 36px;     
+}
+
+div.nuotraukaMeistr{
+    width: 320px;
+    height: 380px;
+    background:transparent url(http://localhost/pirtis/public/image/meistras.png) no-repeat 0 0;    
+}
+
+div.nuotraukaVadib{
+    width: 320px;
+    height: 380px;
+    background:transparent url(http://localhost/pirtis/public/image/vadyb.png) no-repeat 0 0;
+}
+
+div.aprasymoRemelis{
+    width: 220px;
+    height: 280px;
+    border:1px dashed white;
+
+    box-shadow: 20px 20px 20px #8B4513;
+    
+    -webkit-border-radius: 33px;
+    -moz-border-radius: 33px;
+    -ms-border-radius: 33px;
+    -o-border-radius:33px;
+    border-radius: 33px;       
+}
+
+div.aprasymoRemelis2{
+    margin-top: 20px;
+    
+    width: 370px;
+    height: 220px;
+    border:3px dashed #8B4513;
+    background: #A0522D;   
+    box-shadow: 20px 20px 20px #8B4513;
+    
+    -webkit-border-radius: 33px;
+    -moz-border-radius: 33px;
+    -ms-border-radius: 33px;
+    -o-border-radius:33px;
+    border-radius: 33px;       
+}
+
+div.apieMusPav{
+    padding-top: 60px;
+    padding-bottom: 20px;
+    font: 30px/30px Sans-serif;
+}
+
+div.panel{
+    width:450px;
+    height: 650px;
+    border:3px dashed #8B4513;     
+    
+    border-top-left-radius: 36px;
+    border-bottom-left-radius: 36px;
+    border-top-right-radius: 36px;
+    border-bottom-right-radius: 36px; 
+}
+
+div.panel2{
+    width:450px;
+    height: 650px;
+    border:3px dashed #8B4513;     
+    
+    border-top-left-radius: 36px;
+    border-bottom-left-radius: 36px;
+    border-top-right-radius: 36px;
+    border-bottom-right-radius: 36px; 
+}
+
+.prisistatymas{
+    padding-top: 5px;
+    padding-left: 20px;
+    padding-right: 20px;
+    font: 18px/25px Sans-serif;
+    text-align: justify;
+}
+
+/**apie mane style**************/
+
+
+
+/***************************************/
+/************start slide block**********/
+/***************************************/
+div.fromSlideBlock{
+   margin-top: 115px; 
+}
+
+div.slideBloc{ 
+   height: 330px;
+   width: 960px;
+   margin: 20px auto;
+}
+
+#sliderFrame, #sliderFrame div {
+	box-sizing: content-box;
+}
+#sliderFrame 
+{
+    position:relative;
+    width:960px;
+    margin:0 auto; /*center-aligned*/
+}
+
+#slider, #slider div.sliderInner {
+    width:960px;height:306px;/* Must be the same size as the slider images */
+}
+
+#slider {
+	background:#fff url(loading.gif) no-repeat 50% 50%;
+	position:relative;
+	margin:0 auto; /*center-aligned*/
+    transform: translate3d(0,0,0);
+    box-shadow: 0px 1px 5px #999999;
+}
+
+/* image wrapper */
+#slider a.imgLink, #slider div.video {
+	z-index:2;
+	position:absolute;
+	top:0px;left:0px;border:0;padding:0;margin:0;
+	width:100%;height:100%;
+}
+
+/* ------ built-in navigation bullets wrapper ------*/
+#slider div.navBulletsWrapper  {
+    top:310px;/* Its position is relative to the #slider */
+	text-align:center;
+	background:none;
+	position:relative;
+	z-index:5;
+}
+
+/* each bullet */
+#slider div.navBulletsWrapper div 
+{
+    width:11px; height:11px;
+    font-size:0;color:White;/*hide the index number in the bullet element*/
+    background:transparent url(http://localhost/redCrossVisaginas/public/image/bullet.png) no-repeat 0 0;
+    display:inline-block; *display:inline; zoom:1;
+    overflow:hidden;cursor:pointer;
+    margin:0 6px;/* set distance between each bullet*/
+}
+
+#slider div.navBulletsWrapper div.active {background-position:0 -11px;}
+
+
+/* --------- Others ------- */
+
+#slider div.loading 
+{
+    width:100%; height:100%;
+    background:transparent url(loading.gif) no-repeat 50% 50%;
+    filter: alpha(opacity=60);
+    opacity:0.6;
+    position:absolute;
+    left:0;
+    top:0; 
+    z-index:9;
+}
+
+#slider img, #slider>b, #slider a>b {
+	position:absolute; border:none; display:none;
+}
+
+#slider div.sliderInner {
+	overflow:hidden; 
+	-webkit-transform: rotate(0.000001deg);/* fixed the Chrome not crop border-radius bug*/
+	position:absolute; top:0; left:0;
+}
+
+#slider>a, #slider video, #slider audio {display:none;}
+#slider div {-webkit-transform: translate3d(0,0,0);transform: translate3d(0,0,0);}
+/** end slide block**************/
+
+
+/**********************/
+/****Galery prewiev****/
+/**********************/
+/* Preload images */
+body:after {
+  content: url(http://localhost/redCrossVisaginas/public/image/close.png) url(http://localhost/redCrossVisaginas/public/image/loading.gif) url(http://localhost/redCrossVisaginas/public/image/prev.png) url(http://localhost/redCrossVisaginas/public/image/next.png);
+  display: none;
+}
+
+.lightboxOverlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 9999;
+  background-color: black;
+  filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=80);
+  opacity: 0.8;
+  display: none;
+}
+
+.lightbox {
+  position: absolute;
+  left: 0;
+  width: 100%;
+  z-index: 10000;
+  text-align: center;
+  line-height: 0;
+  font-weight: normal;
+}
+
+.lightbox .lb-image {
+  display: block;
+  height: auto;
+  max-width: inherit;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  -ms-border-radius: 3px;
+  -o-border-radius: 3px;
+  border-radius: 3px;
+}
+
+.lightbox a img {
+  border: none;
+}
+
+.lb-outerContainer {
+  position: relative;
+  background-color: white;
+  *zoom: 1;
+  width: 250px;
+  height: 250px;
+  margin: 0 auto;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  -ms-border-radius: 4px;
+  -o-border-radius: 4px;
+  border-radius: 4px;
+}
+
+.lb-outerContainer:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.lb-container {
+  padding: 4px;
+}
+
+.lb-loader {
+  position: absolute;
+  top: 43%;
+  left: 0;
+  height: 25%;
+  width: 100%;
+  text-align: center;
+  line-height: 0;
+}
+
+.lb-cancel {
+  display: block;
+  width: 32px;
+  height: 32px;
+  margin: 0 auto;
+  background: url(http://localhost/redCrossVisaginas/public/image/loading.gif) no-repeat;
+}
+
+.lb-nav {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  z-index: 10;
+}
+
+.lb-container > .nav {
+  left: 0;
+}
+
+.lb-nav a {
+  outline: none;
+  background-image: url('data:image/gif;base64,R0lGODlhAQABAPAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==');
+}
+
+.lb-prev, .lb-next {
+  height: 100%;
+  cursor: pointer;
+  display: block;
+}
+
+.lb-nav a.lb-prev {
+  width: 34%;
+  left: 0;
+  float: left;
+  background: url(http://localhost/redCrossVisaginas/public/image/prev.png) left 48% no-repeat;
+  filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=0);
+  opacity: 0;
+  -webkit-transition: opacity 0.6s;
+  -moz-transition: opacity 0.6s;
+  -o-transition: opacity 0.6s;
+  transition: opacity 0.6s;
+}
+
+.lb-nav a.lb-prev:hover {
+  filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=100);
+  opacity: 1;
+}
+
+.lb-nav a.lb-next {
+  width: 64%;
+  right: 0;
+  float: right;
+  background: url(http://localhost/redCrossVisaginas/public/image/next.png) right 48% no-repeat;
+  filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=0);
+  opacity: 0;
+  -webkit-transition: opacity 0.6s;
+  -moz-transition: opacity 0.6s;
+  -o-transition: opacity 0.6s;
+  transition: opacity 0.6s;
+}
+
+.lb-nav a.lb-next:hover {
+  filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=100);
+  opacity: 1;
+}
+
+.lb-dataContainer {
+  margin: 0 auto;
+  padding-top: 5px;
+  *zoom: 1;
+  width: 100%;
+  -moz-border-radius-bottomleft: 4px;
+  -webkit-border-bottom-left-radius: 4px;
+  border-bottom-left-radius: 4px;
+  -moz-border-radius-bottomright: 4px;
+  -webkit-border-bottom-right-radius: 4px;
+  border-bottom-right-radius: 4px;
+}
+
+.lb-dataContainer:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.lb-data {
+  padding: 0 4px;
+  color: #ccc;
+}
+
+.lb-data .lb-details {
+  width: 85%;
+  float: left;
+  text-align: left;
+  line-height: 1.1em;
+}
+
+.lb-data .lb-caption {
+  font-size: 13px;
+  font-weight: bold;
+  line-height: 1em;
+}
+
+.lb-data .lb-number {
+  display: block;
+  clear: left;
+  padding-bottom: 1em;
+  font-size: 12px;
+  color: #999999;
+}
+
+.lb-data .lb-close {
+  display: block;
+  float: right;
+  width: 30px;
+  height: 30px;
+  background: url(http://localhost/redCrossVisaginas/public/image/close.png) top right no-repeat;
+  text-align: right;
+  outline: none;
+  filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=70);
+  opacity: 0.7;
+  -webkit-transition: opacity 0.2s;
+  -moz-transition: opacity 0.2s;
+  -o-transition: opacity 0.2s;
+  transition: opacity 0.2s;
+}
+
+.lb-data .lb-close:hover {
+  cursor: pointer;
+  filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=100);
+  opacity: 1;
+}
+
+
+/**********************/
+
+
